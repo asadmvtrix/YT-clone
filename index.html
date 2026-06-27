@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Header -> logo + search + icons -->
+    <header class="header">
+        <div class="container">
+            <div class="header-left">
+                <img src="assets/menu.png" alt="menu" class="menu">
+                <div class="logo">
+                    <img src="assets/youtube-logo.png" alt="yt logo" width="50px" height="50px" class="menu">
+                    <a href="https://www.youtube.com/" target="_top" class="logo">Youtube <sup>PK</sup></a>
+                </div>
+            </div>
+            <div class="header-center">
+                <div>
+                    <form action="" class="search-form">
+                        <label for="search">Search</label>
+                        <input id="search" type="text" autocomplete="off" placeholder="Search Youtube"
+                            class="search-input">
+                        <button type="submit" class="search-btn">
+                            <img src="assets/search.png" alt="search" class="menu">
+                        </button>
+                    </form>
+                </div>
+                <img src="assets/mic.png" alt="voice" class="menu">
+
+            </div>
+            <div class="header-right">
+                <button class="create-btn">
+                    <img src="assets/create.png" alt="create" class="menu">
+                    Create
+                </button>
+
+                <button>
+                    <img src="assets/notification.png" alt="notification" class="menu">
+                    <span>9</span>
+                </button>
+                <button>
+                    <img src="assets/profile.png" alt="profile" class="menu">
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <div class="page-body">
+        <!-- sidebar -->
+        <aside class="sidebar">
+            <ul class="sidebar-list">
+                <li class="sidebar-item active">
+                    <a href="https://www.youtube.com/" target="_top">
+                        <img src="assets/home.png" alt="home" class="sidebar-icon">
+                        Home
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="https://www.youtube.com/feed/trending" target="_top">
+                        <img src="assets/shorts.png" alt="shorts" class="sidebar-icon">
+                        Shorts
+                    </a>
+                </li>
+                <hr />
+                <div>
+                    <span>Subscriptions</span>
+                    <li class="sidebar-item">
+                        <img src="assets/cristiano.jpg" alt="subscription" class="sidebar-icon">
+                        Cristiano
+                    </li>
+                             <li class="sidebar-item">
+                        <img src="assets/ishowspeed.jpg" alt="subscription" class="sidebar-icon">
+                        IShowSpeed
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/ubisoft.jpg" alt="subscription" class="sidebar-icon">
+                        Ubisoft
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/ign.png" alt="subscription" class="sidebar-icon">
+                        IGN
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/ubisoft.jpg" alt="subscription" class="sidebar-icon">
+                        Ubisoft
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/rockstar.jpg" alt="subscription" class="sidebar-icon">
+                        Rockstar
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/ign.png" alt="subscription" class="sidebar-icon">
+                        IGN
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/ishowspeed.jpg" alt="subscription" class="sidebar-icon">
+                        IShowSpeed
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/cristiano.jpg" alt="subscription" class="sidebar-icon">
+                        Cristiano
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/ubisoft.jpg" alt="subscription" class="sidebar-icon">
+                        Ubisoft
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/rockstar.jpg" alt="subscription" class="sidebar-icon">
+                        Rockstar
+                    <!-- </li>         <li class="sidebar-item">
+                        <img src="assets/images/subscription.png" alt="subscription" class="sidebar-icon">
+                        Subscription
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/images/subscription.png" alt="subscription" class="sidebar-icon">
+                        Subscription
+                    </li>         <li class="sidebar-item">
+                        <img src="assets/images/subscription.png" alt="subscription" class="sidebar-icon">
+                        Subscription
+                    </li> -->
+                    <li class="sidebar-item">
+                        <!-- <img src="assets/images/library.png" alt="library" class="sidebar-icon"> -->
+                        Library
+                    </li>
+                </div>
+                <hr />
+                <p>
+                    <span>Explore</span>
+                </p>
+            </ul>
+            <footer>
+                <p>Copyright &copy; 2024 PK</p>
+            </footer>
+        </aside>
+        <!-- main content -->
+        <main>
+            <div class="filter-chips-row">
+                <button class="filter-chip active">All</button>
+                <button class="filter-chip">Live</button>
+                <button class="filter-chip">Gaming</button>
+                <button class="filter-chip">News</button>
+                <button class="filter-chip">Sports</button>
+                <button class="filter-chip">Learning</button>
+                
+                
+            </div>
+            <section class="video-list">
+
+
+            </section>
+
+        </main>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
